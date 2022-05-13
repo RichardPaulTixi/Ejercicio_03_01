@@ -16,7 +16,7 @@ public class Ventana030101 extends JFrame{
     public static void main(String[] args) {
         //System.out.println("Hello World!");
         
-     var y=new Ventana01("FlowLayout",400, 100);
+     var y=new Ventana01("FlowLayout",900, 200);
        y.setVisible(true);
        
       

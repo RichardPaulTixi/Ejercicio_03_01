@@ -12,6 +12,7 @@ import java.awt.Point;
 import java.util.ArrayList;
 import javax.swing.BorderFactory;
 import javax.swing.JFrame;
+import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 /**
@@ -26,7 +27,7 @@ public class Ventana01 extends JFrame{
        
         super(title);
         this.setSize(w, h);
-        var p=new Point(300,150);
+        var p=new Point(500,150);
         this.setLocation(p);
         this.iniciarComponentes();
         this.setContentPane(this.jPanelList.get(0));
@@ -57,20 +58,27 @@ public class Ventana01 extends JFrame{
         this.jPanelList.get(0).setBorder(BorderFactory.createTitledBorder("Panel Principal"));
         
         this.jPanelList.get(1).setBackground(Color.RED);
-        this.jPanelList.get(1).setBorder(BorderFactory.createTitledBorder("Button 1"));
+        //this.jPanelList.get(1).setBorder(BorderFactory.createTitledBorder("Button 1"));
+        this.jPanelList.get(1).add(new JLabel("Button 1"));
+        
+        
         this.jPanelList.get(2).setBackground(Color.BLUE);
-        this.jPanelList.get(2).setBorder(BorderFactory.createTitledBorder("2"));
+        //this.jPanelList.get(2).setBorder(BorderFactory.createTitledBorder("2"));
+        this.jPanelList.get(2).add(new JLabel("Button 2"));
         
         this.jPanelList.get(3).setBackground(Color.CYAN);
-        this.jPanelList.get(3).setBorder(BorderFactory.createTitledBorder("Button 3"));
+        //this.jPanelList.get(3).setBorder(BorderFactory.createTitledBorder("Button 3"));
+        this.jPanelList.get(3).add(new JLabel("Button 3"));
         
         this.jPanelList.get(4).setBackground(Color.YELLOW);
-        this.jPanelList.get(4).setBorder(BorderFactory.createTitledBorder("LongNamed button 4"));
+        //this.jPanelList.get(4).setBorder(BorderFactory.createTitledBorder("LongNamed button 4"));
+        this.jPanelList.get(4).add(new JLabel("Button 4"));
         
         this.jPanelList.get(5).setBackground(Color.GREEN);
-        this.jPanelList.get(5).setBorder(BorderFactory.createTitledBorder("Button 5"));
+        //this.jPanelList.get(5).setBorder(BorderFactory.createTitledBorder("Button 5"));
+        this.jPanelList.get(5).add(new JLabel("Button 5"));
        
-        this.jPanelList.get(0).setLayout(new GridLayout());
+        this.jPanelList.get(0).setLayout(new FlowLayout());
         this.jPanelList.get(0).add(this.jPanelList.get(1));
         this.jPanelList.get(0).add(this.jPanelList.get(2));
         this.jPanelList.get(0).add(this.jPanelList.get(3));
