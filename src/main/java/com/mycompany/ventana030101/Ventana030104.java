@@ -50,7 +50,7 @@ public class Ventana030104 extends JFrame{
     public void iniciarPanel(){
         this.jpanel1=new JPanel();
         this.jpanel1.setBackground(Color.LIGHT_GRAY);
-        this.jpanel1.setBorder(BorderFactory.createTitledBorder(""));
+        this.jpanel1.setBorder(BorderFactory.createTitledBorder("Panel Principal"));
         this.jpanel1.setLayout(new BorderLayout(3,2));
         
     }
@@ -64,31 +64,31 @@ public class Ventana030104 extends JFrame{
         this.jLabelList.add(new JLabel());
         this.jLabelList.add(new JLabel());
         
-        this.jLabelList.get(0).setBackground(Color.GRAY);
+        this.jLabelList.get(0).setBackground(Color.CYAN);
         this.jLabelList.get(0).setOpaque(true);
         this.jLabelList.get(0).setText("Button 1");
         this.jpanel1.add(this.jLabelList.get(0), BorderLayout.NORTH);
 
         
-        this.jLabelList.get(1).setBackground(Color.GRAY);
+        this.jLabelList.get(1).setBackground(Color.GREEN);
         this.jLabelList.get(1).setOpaque(true);
         this.jLabelList.get(1).setText("Telecomunicaciones");
         this.jpanel1.add(this.jpanelBandera, BorderLayout.CENTER);
         
-        this.jLabelList.get(2).setBackground(Color.GRAY);
+        this.jLabelList.get(2).setBackground(Color.LIGHT_GRAY);
         this.jLabelList.get(2).setOpaque(true);
         this.jLabelList.get(2).setText("Long Named Buttom 4");
         this.jpanel1.add(this.jLabelList.get(2), BorderLayout.SOUTH);
 
         
         
-        this.jLabelList.get(3).setBackground(Color.GRAY);
+        this.jLabelList.get(3).setBackground(Color.PINK);
         this.jLabelList.get(3).setOpaque(true);
         this.jLabelList.get(3).setText("Button 5");
         this.jpanel1.add(this.jLabelList.get(3), BorderLayout.EAST);
         
         
-        this.jLabelList.get(4).setBackground(Color.GRAY);
+        this.jLabelList.get(4).setBackground(Color.ORANGE);
         this.jLabelList.get(4).setOpaque(true);
         this.jLabelList.get(4).setText("Button 3");
         this.jpanel1.add(this.jLabelList.get(4), BorderLayout.WEST);

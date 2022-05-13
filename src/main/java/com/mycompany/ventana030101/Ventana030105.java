@@ -49,7 +49,7 @@ public class Ventana030105 extends JFrame{
     public void iniciarPanel(){
         this.jpanel1=new JPanel();
         this.jpanel1.setBackground(Color.LIGHT_GRAY);
-        this.jpanel1.setBorder(BorderFactory.createTitledBorder(""));
+        this.jpanel1.setBorder(BorderFactory.createTitledBorder("Panel Principal"));
         this.jpanel1.setLayout(new BorderLayout(3,2));
         
     }
@@ -63,13 +63,13 @@ public class Ventana030105 extends JFrame{
         this.jLabelList.add(new JLabel());
         this.jLabelList.add(new JLabel());
         
-        this.jLabelList.get(0).setBackground(Color.GRAY);
+        this.jLabelList.get(0).setBackground(Color.WHITE);
         this.jLabelList.get(0).setOpaque(true);
         this.jLabelList.get(0).setText("Button 1");
         this.jpanel1.add(this.jLabelList.get(0), BorderLayout.NORTH);
 
         
-        this.jLabelList.get(1).setBackground(Color.GRAY);
+        this.jLabelList.get(1).setBackground(Color.YELLOW);
         this.jLabelList.get(1).setOpaque(true);
         this.jLabelList.get(1).setText("2");
         this.jpanel1.add(this.jLabelList.get(1), BorderLayout.CENTER);
@@ -81,13 +81,13 @@ public class Ventana030105 extends JFrame{
 
         
         
-        this.jLabelList.get(3).setBackground(Color.GRAY);
+        this.jLabelList.get(3).setBackground(Color.MAGENTA);
         this.jLabelList.get(3).setOpaque(true);
         this.jLabelList.get(3).setText("Button 5");
         this.jpanel1.add(this.jLabelList.get(3), BorderLayout.EAST);
         
         
-        this.jLabelList.get(4).setBackground(Color.GRAY);
+        this.jLabelList.get(4).setBackground(Color.LIGHT_GRAY);
         this.jLabelList.get(4).setOpaque(true);
         this.jLabelList.get(4).setText("Button 3");
         this.jpanel1.add(this.jLabelList.get(4), BorderLayout.WEST);
