@@ -6,15 +6,14 @@ package com.mycompany.ventana030101;
 
 import java.awt.BorderLayout;
 import java.awt.Color;
-import java.awt.FlowLayout;
-import java.awt.GridLayout;
+//import java.awt.GridLayout;
 import java.awt.HeadlessException;
-import java.awt.Label;
+//import java.awt.Label;
 import java.util.ArrayList;
 import java.util.List;
 import javax.swing.BorderFactory;
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
+//import javax.swing.Icon;
+//import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
@@ -23,14 +22,14 @@ import javax.swing.JPanel;
  *
  * @author HP
  */
-public class Ventana030104 extends JFrame{
+public class Ventana030105 extends JFrame{
     
     private JPanel jpanel1;
-    private JPanel jpanelBandera;
+    //private JPanel jpanelBandera;
     private List<JLabel> jLabelList;
-    private List<JLabel> jBanderaList;
+    //private List<JLabel> jBanderaList;
 
-    public Ventana030104(String title) throws HeadlessException {
+    public Ventana030105(String title) throws HeadlessException {
         super(title);
         this.setSize(300, 200);
         this.setLocation(50, 100);
@@ -41,7 +40,7 @@ public class Ventana030104 extends JFrame{
     
     public void iniciarComponentes(){
         this.iniciarPanel();
-        this.iniciarBandera();
+        //this.iniciarBandera();
         this.iniciarEtiquetas();
         
     }
@@ -72,8 +71,8 @@ public class Ventana030104 extends JFrame{
         
         this.jLabelList.get(1).setBackground(Color.GRAY);
         this.jLabelList.get(1).setOpaque(true);
-        this.jLabelList.get(1).setText("Telecomunicaciones");
-        this.jpanel1.add(this.jpanelBandera, BorderLayout.CENTER);
+        this.jLabelList.get(1).setText("2");
+        this.jpanel1.add(this.jLabelList.get(1), BorderLayout.CENTER);
         
         this.jLabelList.get(2).setBackground(Color.GRAY);
         this.jLabelList.get(2).setOpaque(true);
@@ -94,7 +93,7 @@ public class Ventana030104 extends JFrame{
         this.jpanel1.add(this.jLabelList.get(4), BorderLayout.WEST);
     }
     
-    public void iniciarBandera (){
+    /*public void iniciarBandera (){
         this.jpanelBandera=new JPanel();
         this.jpanelBandera.setLayout(new GridLayout(7,7));
         
@@ -155,11 +154,9 @@ public class Ventana030104 extends JFrame{
         this.jBanderaList.get(47).setBackground(Color.RED);
         this.jBanderaList.get(48).setBackground(Color.RED);
         
-        for(var i=0;i<49;i++){
-            this.jpanelBandera.add(this.jBanderaList.get(i));
-            this.jBanderaList.get(i).setOpaque(true);
-        }
         
         
-    }
+    }/*
+    
+    */
 }

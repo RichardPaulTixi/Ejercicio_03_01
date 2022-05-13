@@ -51,55 +51,31 @@ public class Ventana01 extends JFrame{
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
         this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        this.jPanelList.add(new JPanel());
-        
-        this.jPanelList.get(0).setBackground(Color.WHITE);
-        this.jPanelList.get(0).setBorder(BorderFactory.createTitledBorder("Panel 0"));
-        this.jPanelList.get(1).setBackground(Color.BLACK);
-        this.jPanelList.get(1).setBorder(BorderFactory.createTitledBorder("Panel 1"));
-        this.jPanelList.get(2).setBackground(Color.GREEN);
-        this.jPanelList.get(2).setBorder(BorderFactory.createTitledBorder("Panel 2"));
-        
-        this.jPanelList.get(3).setBackground(Color.RED);
-        this.jPanelList.get(3).setBorder(BorderFactory.createTitledBorder("Panel 3"));
-        
-        this.jPanelList.get(4).setBackground(Color.BLUE);
-        this.jPanelList.get(4).setBorder(BorderFactory.createTitledBorder("Panel 4"));
-        
-        this.jPanelList.get(5).setBackground(Color.CYAN);
-        this.jPanelList.get(5).setBorder(BorderFactory.createTitledBorder("Panel 5"));
-        
-        this.jPanelList.get(6).setBackground(Color.GRAY);
-        this.jPanelList.get(6).setBorder(BorderFactory.createTitledBorder("Panel 6"));
-        
-        this.jPanelList.get(7).setBackground(Color.MAGENTA);
-        this.jPanelList.get(7).setBorder(BorderFactory.createTitledBorder("Panel 7"));
-        
-        this.jPanelList.get(8).setBackground(Color.ORANGE);
-        this.jPanelList.get(8).setBorder(BorderFactory.createTitledBorder("Panel 8"));
-        
-        this.jPanelList.get(9).setBackground(Color.PINK);
-        this.jPanelList.get(9).setBorder(BorderFactory.createTitledBorder("Panel 9"));
-        
-        this.jPanelList.get(10).setBackground(Color.YELLOW);
-        this.jPanelList.get(10).setBorder(BorderFactory.createTitledBorder("Panel 10"));
         
         
+        this.jPanelList.get(0).setBackground(Color.GRAY);
+        
+        this.jPanelList.get(1).setBackground(Color.GRAY);
+        this.jPanelList.get(1).setBorder(BorderFactory.createTitledBorder("Button 1"));
+        this.jPanelList.get(2).setBackground(Color.GRAY);
+        this.jPanelList.get(2).setBorder(BorderFactory.createTitledBorder("2"));
+        
+        this.jPanelList.get(3).setBackground(Color.GRAY);
+        this.jPanelList.get(3).setBorder(BorderFactory.createTitledBorder("Button 3"));
+        
+        this.jPanelList.get(4).setBackground(Color.GRAY);
+        this.jPanelList.get(4).setBorder(BorderFactory.createTitledBorder("LongNamed button 4"));
+        
+        this.jPanelList.get(5).setBackground(Color.GRAY);
+        this.jPanelList.get(5).setBorder(BorderFactory.createTitledBorder("Button 5"));
+       
         this.jPanelList.get(0).setLayout(new GridLayout());
         this.jPanelList.get(0).add(this.jPanelList.get(1));
         this.jPanelList.get(0).add(this.jPanelList.get(2));
         this.jPanelList.get(0).add(this.jPanelList.get(3));
         this.jPanelList.get(0).add(this.jPanelList.get(4));
         this.jPanelList.get(0).add(this.jPanelList.get(5));
-        this.jPanelList.get(0).add(this.jPanelList.get(6));
-        this.jPanelList.get(0).add(this.jPanelList.get(7));
-        this.jPanelList.get(0).add(this.jPanelList.get(8));
-        this.jPanelList.get(0).add(this.jPanelList.get(9));
-        this.jPanelList.get(0).add(this.jPanelList.get(10));
+
     }
     
 }
